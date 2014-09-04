@@ -11,4 +11,5 @@ alias research="cd /home/bobzhou/Desktop/571/research"
 alias review="cd /home/bobzhou/Dropbox/research/papers/review/pdf_view"
 alias .="cd ."
 alias ..="cd .."
-
+alias system_setup="cd /home/bobzhou/system_setup"
+alias papers="cd /home/bobzhou/Dropbox/research/papers"
