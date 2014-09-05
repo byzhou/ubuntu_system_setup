@@ -12,3 +12,5 @@ set expandtab
 set autoread
 colorscheme elflord
 
+set hlsearch
+
