@@ -13,7 +13,11 @@ alias .="cd ."
 alias ..="cd .."
 alias system_setup="cd /home/bobzhou/system_setup"
 alias papers="cd /home/bobzhou/Dropbox/research/papers && l"
-alias ISSCC="cd /home/bobzhou/Dropbox/research/papers/ISSCC_2014"
+alias ISSCC="cd /home/bobzhou/Dropbox/research/papers/ISSCC_2012"
 alias pipe="cd /home/bobzhou/Dropbox/research/2014_fall/codes/KSA/run_file"
 alias ec772="cd /home/bobzhou/Dropbox/research/2014_fall/EC772_tutorial"
 alias h="history"
+alias algorithm="cd /home/bobzhou/Dropbox/algorithm"
+alias ec535="cd /home/bobzhou/Dropbox/ec535/homework/ob_solution"
+
+
