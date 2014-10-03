@@ -20,7 +20,7 @@ alias h="history"
 alias algorithm="cd /home/bobzhou/Dropbox/algorithm"
 alias ec535="cd /home/bobzhou/Dropbox/ec535/homework/ob_solution"
 
-alias enggrid="ssh -X -c blowfish -C bobzhou@engineeringgrid.bu.edu"
+alias enggrid="ssh -X -c blowfish -C bobzhou@engineering-grid1.bu.edu"
 alias celnode="ssh -X -c blowfish -C bobzhou@celnode04.bu.edu"
 
 
