@@ -44,9 +44,10 @@ alias papers="cd /home/bobzhou/Dropbox/research/papers"
 alias h="history"
        
 alias papers="cd /home/bobzhou/Dropbox/research/papers && l"
-alias ISSCC="cd /home/bobzhou/Dropbox/research/papers/ISSCC_2014"
+alias ISSCC="cd /home/bobzhou/Dropbox/research/papers/ISSCC_2012"
 alias pipe="cd /home/bobzhou/Dropbox/research/2014_fall/codes/KSA/run_file"
 alias ec772="cd /home/bobzhou/Dropbox/research/2014_fall/EC772_tutorial"
+
 alias MZ="cd /home/bobzhou/Desktop/571/research/asic_flow/MZ/rc-synth"
 alias tut1="cd /home/bobzhou/Desktop/571/research/asic_flow/tutorials/tut1/build/cadence-sim-rtl"
 alias tut2="cd /home/bobzhou/Desktop/571/research/asic_flow/tutorials/tut2/build"
@@ -65,3 +66,4 @@ alias enggrid="ssh -X -c blowfish -C bobzhou@engineering-grid1.bu.edu"
 alias slides="cd /home/bobzhou/Desktop/571/research/2014_fall/update/ob_files"
 alias algorithm="cd /home/bobzhou/algorithm/ob_files"
 alias schuyler="cd /home/bobzhou/Desktop/571/research/2014_fall/hardware_security/cadence-modelsim-tutorial"
+

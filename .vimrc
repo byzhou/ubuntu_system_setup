@@ -36,3 +36,4 @@ autocmd bufnewfile *.tex exe "1," . 10 . "g/Creation Date :.*/s//Creation Date :
 autocmd Bufwritepre,filewritepre *.tex execute "normal ma"
 autocmd Bufwritepre,filewritepre *.tex exe "1," . 10 . "g/Last Modified :.*/s/Last Modified :.*/Last Modified : " .strftime("%c")
 autocmd bufwritepost,filewritepost *.tex execute "normal `a"
+
