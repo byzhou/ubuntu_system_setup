@@ -1,7 +1,5 @@
 export PS1='\u@\h$(pwd)$ '
 
-#vncviewer
-export DISPLAY=localhost:39
 
 #PATH=$PATH:/ad/eng/opt/cadence/IUS82/tools/verilog/bin
 #export PATH
@@ -19,6 +17,8 @@ export CDS_LIC_FILE
 MGLS_LICENSE_FILE=1717@MentorLM.bu.edu
 export MGLS_LICENSE_FILE
 
+#vncviewer
+#export DISPLAY=localhost:42
 
 #PATH=$PATH:/opt/cadence/IUS82/tools/verilog/bin
 #export PATH
@@ -55,7 +55,7 @@ alias ndmatlab="matlab -nodisplay -nosplash"
 
 source /ad/eng/opt/cadence/cdssetup/add_soc710.sh
 
-alias ec535="cd /home/bobzhou/ec535/lab/lab1"
+alias ec535="cd /home/bobzhou/ec535/ob_files"
 alias review="cd /home/bobzhou/notes/ob_files"
 
 alias tmp="cd /tmp/bobzhou"
@@ -65,5 +65,10 @@ alias fallwork="cd /home/bobzhou/Desktop/571/research/2014_fall/hardware_securit
 alias enggrid="ssh -X -c blowfish -C bobzhou@engineering-grid1.bu.edu"
 alias slides="cd /home/bobzhou/Desktop/571/research/2014_fall/update/ob_files"
 alias algorithm="cd /home/bobzhou/algorithm/ob_files"
-alias schuyler="cd /home/bobzhou/Desktop/571/research/2014_fall/hardware_security/cadence-modelsim-tutorial"
+alias schuyler="cd
+/home/bobzhou/Desktop/571/research/2014_fall/hardware_security/cadence-modelsim-tutorial"
 
+alias dacpaper="cd
+/home/bobzhou/Desktop/571/research/2014_fall/hardware_security/paper/hw-security-spectroscopy-dac2015/src"
+alias vnc="vncserver :39 -geometry 3840x1080 -depth 16 -name bobzhou"
+alias send="git add . &&  git commit -m \"AUTOCOMMIT (`whoami`):$(`date`)\" && git push origin master"
