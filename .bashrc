@@ -67,3 +67,4 @@ alias slides="cd /home/bobzhou/Desktop/571/research/2014_fall/update/ob_files"
 alias algorithm="cd /home/bobzhou/algorithm/ob_files"
 alias schuyler="cd /home/bobzhou/Desktop/571/research/2014_fall/hardware_security/cadence-modelsim-tutorial"
 
+alias send="git add . && git commit -m \"AUTOCOMMIT ('whoami'):'date' \" && git push origin master"
