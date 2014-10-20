@@ -53,7 +53,7 @@ alias tut1="cd /home/bobzhou/Desktop/571/research/asic_flow/tutorials/tut1/build
 alias tut2="cd /home/bobzhou/Desktop/571/research/asic_flow/tutorials/tut2/build"
 alias ndmatlab="matlab -nodisplay -nosplash"
 
-source /ad/eng/opt/cadence/cdssetup/add_soc710.sh
+#source /ad/eng/opt/cadence/cdssetup/add_soc710.sh
 
 alias ec535="cd /home/bobzhou/ec535/lab/lab1"
 alias review="cd /home/bobzhou/notes/ob_files"
