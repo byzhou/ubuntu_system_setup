@@ -68,7 +68,7 @@ alias schuyler="cd /home/bobzhou/Desktop/571/research/2014_fall/hardware_securit
 
 alias dacpaper="cd /home/bobzhou/Desktop/571/research/2014_fall/hardware_security/paper/ICSG_papers/2015/hw-security-spectroscopy-dac2015/src"
 alias vnc="vncserver :39 -geometry 3840x1080 -depth 16 -name bobzhou"
-alias send="git add . &&  git commit -m \"AUTOCOMMIT (`whoami`):`date`\" && git push origin master"
+alias send="git add . &&  git commit -m \"AUTOCOMMIT `whoami`@`hostname`:`date`\" && git push origin master"
 #ec535
 export EC535=/ad/eng/courses/ec/ec535
 export PATH=${EC535}/arm-linux/bin:${EC535}/bin:${EC535}/usr/bin:${PATH}
