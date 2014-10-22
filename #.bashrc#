@@ -36,23 +36,23 @@ alias cds51="cd /home/bobzhou/Desktop/571/research/cadence/ && source cadence.sh
 alias research="cd /home/bobzhou/Desktop/571/research"
 #alias asic="cd /home/bobzhou/Desktop/571/research/asic_tool"
 alias asic="cd /home/bobzhou/Desktop/571/research/asic_flow"
+alias review="cd /home/bobzhou/Dropbox/research/papers/review/pdf_view"
 alias system_setup="cd /home/bobzhou/system_setup"
             
 alias papers="cd /home/bobzhou/Dropbox/research/papers"
 alias h="history"
        
-#alias papers="cd /home/bobzhou/Dropbox/research/papers && l"
-#alias ISSCC="cd /home/bobzhou/Dropbox/research/papers/ISSCC_2012"
-#alias pipe="cd /home/bobzhou/Dropbox/research/2014_fall/codes/KSA/run_file"
-#alias ec772="cd /home/bobzhou/Dropbox/research/2014_fall/EC772_tutorial"
+alias papers="cd /home/bobzhou/Dropbox/research/papers && l"
+alias ISSCC="cd /home/bobzhou/Dropbox/research/papers/ISSCC_2012"
+alias pipe="cd /home/bobzhou/Dropbox/research/2014_fall/codes/KSA/run_file"
+alias ec772="cd /home/bobzhou/Dropbox/research/2014_fall/EC772_tutorial"
 
-#alias MZ="cd /home/bobzhou/Desktop/571/research/asic_flow/MZ/rc-synth"
-#alias tut1="cd /home/bobzhou/Desktop/571/research/asic_flow/tutorials/tut1/build/cadence-sim-rtl"
-#alias tut2="cd /home/bobzhou/Desktop/571/research/asic_flow/tutorials/tut2/build"
-#matlab nodisplay
+alias MZ="cd /home/bobzhou/Desktop/571/research/asic_flow/MZ/rc-synth"
+alias tut1="cd /home/bobzhou/Desktop/571/research/asic_flow/tutorials/tut1/build/cadence-sim-rtl"
+alias tut2="cd /home/bobzhou/Desktop/571/research/asic_flow/tutorials/tut2/build"
 alias ndmatlab="matlab -nodisplay -nosplash"
 
-#source /ad/eng/opt/cadence/cdssetup/add_soc710.sh
+source /ad/eng/opt/cadence/cdssetup/add_soc710.sh
 
 alias ec535="cd /home/bobzhou/ec535/lab/lab1"
 alias review="cd /home/bobzhou/notes/ob_files"
@@ -75,5 +75,3 @@ export EC535=/ad/eng/courses/ec/ec535
 export PATH=${EC535}/arm-linux/bin:${EC535}/bin:${EC535}/usr/bin:${PATH}
 
 unset SSH_ASKPASS
-#chrome
-alias chrome="/ad/eng/bin/64/chromium &"
