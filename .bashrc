@@ -38,7 +38,6 @@ alias research="cd /home/bobzhou/Desktop/571/research"
 alias asic="cd /home/bobzhou/Desktop/571/research/asic_flow"
 alias system_setup="cd /home/bobzhou/system_setup"
             
-alias papers="cd /home/bobzhou/Dropbox/research/papers"
 alias h="history"
        
 #alias papers="cd /home/bobzhou/Dropbox/research/papers && l"
@@ -77,3 +76,6 @@ export PATH=${EC535}/arm-linux/bin:${EC535}/bin:${EC535}/usr/bin:${PATH}
 unset SSH_ASKPASS
 #chrome
 alias chrome="/ad/eng/bin/64/chromium &"
+#gcc compiler
+alias arm-linux-gcc="/ad/eng/courses/ec/ec535/arm-linux/bin/arm-linux-gcc"
+alias arm-linux-objdump="/ad/eng/courses/ec/ec535/arm-linux/bin/arm-linux-objdump"

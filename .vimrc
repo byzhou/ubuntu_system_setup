@@ -15,7 +15,6 @@ colorscheme elflord
 set hlsearch
 syntax on
 
-
 autocmd bufnewfile *.c so /home/bobzhou/ubuntu_system_setup/vim_header/c_header.txt
 autocmd bufnewfile *.c exe "1," . 10 . "g/File Name :.*/s//File Name : " .expand("%")
 autocmd bufnewfile *.c exe "1," . 10 . "g/Creation Date :.*/s//Creation Date : " .strftime("%m-%d-%Y")
