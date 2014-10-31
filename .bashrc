@@ -31,8 +31,11 @@ alias l="ls -al --color"
 #This two commands is for engineering grid.
 alias .="cd ."
 alias ..="cd .."
+#cadence related
 alias cds61="cd /home/bobzhou/Desktop/571/hw3/ && source cadence.sh "
 alias cds51="cd /home/bobzhou/Desktop/571/research/cadence/ && source cadence.sh"
+alias 8hp="cd /home/bobzhou/Desktop/582/8hp/cdssetup && source add_8hp.sh"
+
 alias research="cd /home/bobzhou/Desktop/571/research"
 #alias asic="cd /home/bobzhou/Desktop/571/research/asic_tool"
 alias asic="cd /home/bobzhou/Desktop/571/research/asic_flow"
