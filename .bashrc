@@ -74,11 +74,13 @@ alias vnc="vncserver :39 -geometry 3840x1080 -depth 16 -name bobzhou"
 alias send="git add . &&  git commit -m \"AUTOCOMMIT `whoami`@`hostname`:`date`\" && git push origin master"
 #ec535
 export EC535=/ad/eng/courses/ec/ec535
-export PATH=${EC535}/arm-linux/bin:${EC535}/bin:${EC535}/usr/bin:${PATH}
+#export PATH=${EC535}/arm-linux/bin:${EC535}/bin:${EC535}/usr/bin:${PATH}
+export PATH=${EC535}/gtkwave/bin:${EC535}/gumstix/oe/cross/bin:${EC535}/bin:${EC535}/usr/bin:${PATH}
 
 unset SSH_ASKPASS
 #chrome
 alias chrome="/ad/eng/bin/64/chromium &"
 #gcc compiler
-alias arm-linux-gcc="/ad/eng/courses/ec/ec535/arm-linux/bin/arm-linux-gcc"
+#alias arm-linux-gcc="/ad/eng/courses/ec/ec535/arm-linux/bin/arm-linux-gcc"
+#alias arm-linux-gcc="/ad/eng/courses/ec/ec535/gumstix/oe/cross/bin/arm-linux-gcc"
 alias arm-linux-objdump="/ad/eng/courses/ec/ec535/arm-linux/bin/arm-linux-objdump"

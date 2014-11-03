@@ -1,5 +1,7 @@
 set nu 
 
+set tw=80
+
 set shiftwidth=4
 set smartindent
 set tabstop=4
