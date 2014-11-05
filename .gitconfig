@@ -1,0 +1,5 @@
+[user]
+	name = bob-icsg
+	email = bobzhou@bu.edu
+[core]
+	excludesfile = /home/bobzhou/.gitignore_global

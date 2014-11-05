@@ -56,7 +56,7 @@ alias ndmatlab="matlab -nodisplay -nosplash"
 
 #source /ad/eng/opt/cadence/cdssetup/add_soc710.sh
 
-alias ec535="cd /home/bobzhou/ec535/lab/lab1"
+alias ec535="cd /home/bobzhou/ec535/lab/lab4"
 alias review="cd /home/bobzhou/notes/ob_files"
 
 alias tmp="cd /tmp/bobzhou"
@@ -84,3 +84,4 @@ alias chrome="/ad/eng/bin/64/chromium &"
 #alias arm-linux-gcc="/ad/eng/courses/ec/ec535/arm-linux/bin/arm-linux-gcc"
 #alias arm-linux-gcc="/ad/eng/courses/ec/ec535/gumstix/oe/cross/bin/arm-linux-gcc"
 alias arm-linux-objdump="/ad/eng/courses/ec/ec535/arm-linux/bin/arm-linux-objdump"
+
