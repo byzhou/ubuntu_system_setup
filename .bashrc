@@ -56,7 +56,7 @@ alias ndmatlab="matlab -nodisplay -nosplash"
 
 #source /ad/eng/opt/cadence/cdssetup/add_soc710.sh
 
-alias ec535="cd /home/bobzhou/ec535/lab/lab4"
+alias ec535="cd /home/bobzhou/ec535/lab/lab5"
 alias review="cd /home/bobzhou/notes/ob_files"
 
 alias tmp="cd /tmp/bobzhou"
