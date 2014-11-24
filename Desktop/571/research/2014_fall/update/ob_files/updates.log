@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2013.7.9)  15 NOV 2014 19:06
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2013.7.9)  20 NOV 2014 14:46
 entering extended mode
 \write18 enabled.
  %&-line parsing enabled.
@@ -574,6 +574,25 @@ LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 (/usr/share/texmf/tex/latex/oberdiek/epstopdf.sty
 Package: epstopdf 2006/08/26 v1.3 Conversion with epstopdf on the fly (HO)
 )
+(/usr/share/texmf/tex/latex/tools/tabularx.sty
+Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
+
+(/usr/share/texmf/tex/latex/tools/array.sty
+Package: array 2005/08/23 v2.4b Tabular extension package (FMi)
+\col@sep=\dimen179
+\extrarowheight=\dimen180
+\NC@list=\toks37
+\extratabsurround=\skip55
+\backup@length=\skip56
+)
+\TX@col@width=\dimen181
+\TX@old@table=\dimen182
+\TX@old@col=\dimen183
+\TX@target=\dimen184
+\TX@delta=\dimen185
+\TX@cols=\count147
+\TX@ftn=\toks38
+)
 (/usr/share/texmf/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/share/texmf/tex/latex/pgf/basiclayer/pgf.sty
 Package: pgf 2006/10/11 v1.10 (rcs-revision 1.7)
@@ -595,8 +614,8 @@ Package: pgfbaselayers 2006/10/16 v1.10 (rcs-revision 1.5)
 (/usr/share/texmf/tex/latex/pgf/basiclayer/pgfbasesnakes.sty
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfbasesnakes.code.tex
 Package: pgfbasesnakes 2006/10/16 v1.10 (rcs-revision 1.10)
-\pgfsnakeremainingdistance=\dimen179
-\pgfsnakecompleteddistance=\dimen180
+\pgfsnakeremainingdistance=\dimen186
+\pgfsnakecompleteddistance=\dimen187
 ))
 (/usr/share/texmf/tex/latex/pgf/basiclayer/pgfbasepatterns.sty
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfbasepatterns.code.tex
@@ -604,34 +623,34 @@ Package: pgfbasepatterns 2006/10/16 v1.10 (rcs-revision 1.9)
 ))
 (/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2006/10/11 v1.10 (rcs-revision 1.4)
-\pgf@nodesepstart=\dimen181
-\pgf@nodesepend=\dimen182
+\pgf@nodesepstart=\dimen188
+\pgf@nodesepend=\dimen189
 ))
 (/usr/share/texmf/tex/latex/tools/calc.sty
 Package: calc 2005/08/06 v4.2 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count147
-\calc@Bcount=\count148
-\calc@Adimen=\dimen183
-\calc@Bdimen=\dimen184
-\calc@Askip=\skip55
-\calc@Bskip=\skip56
+\calc@Acount=\count148
+\calc@Bcount=\count149
+\calc@Adimen=\dimen190
+\calc@Bdimen=\dimen191
+\calc@Askip=\skip57
+\calc@Bskip=\skip58
 LaTeX Info: Redefining \setlength on input line 75.
 LaTeX Info: Redefining \addtolength on input line 76.
-\calc@Ccount=\count149
-\calc@Cskip=\skip57
+\calc@Ccount=\count150
+\calc@Cskip=\skip59
 )
 (/usr/share/texmf/tex/latex/pgf/utilities/pgffor.sty
 (/usr/share/texmf/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2006/10/16 v1.10 (rcs-revision 1.5)
-\pgffor@iter=\dimen185
-\pgffor@skip=\dimen186
+\pgffor@iter=\dimen192
+\pgffor@skip=\dimen193
 ))
 (/usr/share/texmf/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2006/11/18 v2.5f package option processing (HA)
 
 (/usr/share/texmf/tex/latex/xkeyval/xkeyval.tex
-\XKV@toks=\toks37
-\XKV@depth=\count150
+\XKV@toks=\toks39
+\XKV@depth=\count151
 File: xkeyval.tex 2006/11/18 v2.5f key=value parser (HA)
 ))
 (/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz.code.tex
@@ -639,22 +658,22 @@ Package: tikz 2006/10/17 v1.10 (rcs-revision 1.68)
 
 (/usr/share/texmf/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2006/10/16 v1.10 (rcs-revision 1.8)
-\pgf@plot@mark@count=\count151
-\pgfplotmarksize=\dimen187
+\pgf@plot@mark@count=\count152
+\pgfplotmarksize=\dimen194
 )
-\tikz@lastx=\dimen188
-\tikz@lasty=\dimen189
-\tikz@lastxsaved=\dimen190
-\tikz@lastysaved=\dimen191
-\tikzleveldistance=\dimen192
-\tikzsiblingdistance=\dimen193
+\tikz@lastx=\dimen195
+\tikz@lasty=\dimen196
+\tikz@lastxsaved=\dimen197
+\tikz@lastysaved=\dimen198
+\tikzleveldistance=\dimen199
+\tikzsiblingdistance=\dimen200
 \tikz@figbox=\box51
 \tikz@tempbox=\box52
-\tikztreelevel=\count152
-\tikznumberofchildren=\count153
-\tikznumberofcurrentchild=\count154
-\tikz@fig@count=\count155
-\tikz@expandcount=\count156
+\tikztreelevel=\count153
+\tikznumberofchildren=\count154
+\tikznumberofcurrentchild=\count155
+\tikz@fig@count=\count156
+\tikz@expandcount=\count157
 
 (/usr/share/texmf/tex/generic/pgf/libraries/pgflibrarytikztopaths.code.tex
 File: pgflibrarytikztopaths.code.tex 2006/10/16 v1.10 (rcs-revision 1.5)
@@ -668,21 +687,21 @@ File: pgflibraryarrows.code.tex 2006/10/11 v1.10 (rcs-revision 1.5)
 (./updates.aux)
 \openout1 = `updates.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Try loading font information for T1+phv on input line 95.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 96.
  (/usr/share/texmf/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
@@ -725,7 +744,7 @@ driver: pdftex
 
 (1in=72.27pt, 1cm=28.45pt)
 -----------------------
-Package hyperref Info: Link coloring OFF on input line 95.
+Package hyperref Info: Link coloring OFF on input line 96.
 
 (/usr/share/texmf/tex/latex/hyperref/nameref.sty
 Package: nameref 2006/12/27 v2.28 Cross-referencing by name of section
@@ -733,79 +752,79 @@ Package: nameref 2006/12/27 v2.28 Cross-referencing by name of section
 (/usr/share/texmf/tex/latex/oberdiek/refcount.sty
 Package: refcount 2006/02/20 v3.0 Data extraction from references (HO)
 )
-\c@section@level=\count157
+\c@section@level=\count158
 )
-LaTeX Info: Redefining \ref on input line 95.
-LaTeX Info: Redefining \pageref on input line 95.
+LaTeX Info: Redefining \ref on input line 96.
+LaTeX Info: Redefining \pageref on input line 96.
  (./updates.out)
 (./updates.out)
 \@outlinefile=\write5
 \openout5 = `updates.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 95.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 96.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 95.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 96.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/ptm/m/n on input line 95.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 95.
+(Font)                  OT1/cmss/m/n --> T1/ptm/m/n on input line 96.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 96.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> T1/phv/bx/n on input line 95.
+(Font)                  OT1/cmr/bx/n --> T1/phv/bx/n on input line 96.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> T1/phv/bx/n on input line 95.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 95.
+(Font)                  OT1/cmr/bx/n --> T1/phv/bx/n on input line 96.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 96.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/phv/m/n on input line 95.
+(Font)                  OT1/cmss/m/n --> T1/phv/m/n on input line 96.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/phv/m/n on input line 95.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 95.
+(Font)                  OT1/cmss/bx/n --> T1/phv/m/n on input line 96.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 96.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> T1/phv/m/it on input line 95.
+(Font)                  OT1/cmr/m/it --> T1/phv/m/it on input line 96.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> T1/phv/m/it on input line 95.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 95.
+(Font)                  OT1/cmr/bx/it --> T1/phv/m/it on input line 96.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 96.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> T1/pcr/m/n on input line 95.
+(Font)                  OT1/cmtt/m/n --> T1/pcr/m/n on input line 96.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> T1/pcr/m/n on input line 95.
+(Font)                  OT1/cmtt/m/n --> T1/pcr/m/n on input line 96.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/phv/m/n --> T1/phv/bx/n on input line 95.
+(Font)                  T1/phv/m/n --> T1/phv/bx/n on input line 96.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/phv/m/it --> T1/phv/bx/it on input line 95.
+(Font)                  T1/phv/m/it --> T1/phv/bx/it on input line 96.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/ptm/bx/n on input line 95.
+(Font)                  OT1/cmss/bx/n --> T1/ptm/bx/n on input line 96.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/phv/bx/n --> T1/phv/bx/n on input line 95.
+(Font)                  T1/phv/bx/n --> T1/phv/bx/n on input line 96.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/phv/m/n --> T1/phv/bx/n on input line 95.
+(Font)                  T1/phv/m/n --> T1/phv/bx/n on input line 96.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/phv/m/it --> T1/phv/bx/it on input line 95.
+(Font)                  T1/phv/m/it --> T1/phv/bx/it on input line 96.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/pcr/m/n --> T1/pcr/bx/n on input line 95.
+(Font)                  T1/pcr/m/n --> T1/pcr/bx/n on input line 96.
  (./updates.nav)
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 99.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 100.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 99.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 100.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 99.
-LaTeX Font Info:    Try loading font information for U+msa on input line 99.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 100.
+LaTeX Font Info:    Try loading font information for U+msa on input line 100.
  (/usr/share/texmf/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2002/01/19 v2.2g AMS font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 99.
+LaTeX Font Info:    Try loading font information for U+msb on input line 100.
 
 (/usr/share/texmf/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2002/01/19 v2.2g AMS font definitions
 )
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <8> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 99.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 100.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 99.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 100.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <5> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 99.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 100.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ] (./updates.toc
@@ -821,7 +840,7 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <8> not available
 
 ]
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 143.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 144.
  [5
 
 ] [6
@@ -864,9 +883,9 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
 
 ]
 LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/b/it' tried instead on input line 224.
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 225.
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 224.
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 225.
  [24
 
 ] [25
@@ -899,7 +918,7 @@ LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10.95> not available
 File: ../img/AES_T100_TjFree.pdf Graphic file (type pdf)
 
 <use ../img/AES_T100_TjFree.pdf>
-Overfull \vbox (16.60196pt too high) detected at line 261
+Overfull \vbox (16.60196pt too high) detected at line 262
  []
 
 [37
@@ -912,7 +931,7 @@ system(epstopdf ../img/AES_T100_TjFree_wnFillerCell.eps)...executed.
 File: ../img/AES_T100_TjFree_wnFillerCell.pdf Graphic file (type pdf)
 
 <use ../img/AES_T100_TjFree_wnFillerCell.pdf>
-Overfull \vbox (16.29456pt too high) detected at line 269
+Overfull \vbox (16.29456pt too high) detected at line 270
  []
 
 [38
@@ -925,7 +944,7 @@ system(epstopdf ../img/AES_T100_TjIn.eps)...executed.
 File: ../img/AES_T100_TjIn.pdf Graphic file (type pdf)
 
 <use ../img/AES_T100_TjIn.pdf>
-Overfull \vbox (16.29918pt too high) detected at line 277
+Overfull \vbox (16.29918pt too high) detected at line 278
  []
 
 [39
@@ -938,7 +957,7 @@ system(epstopdf ../img/AES_T100_TjIn_wnFillerCell.eps)...executed.
 File: ../img/AES_T100_TjIn_wnFillerCell.pdf Graphic file (type pdf)
 
 <use ../img/AES_T100_TjIn_wnFillerCell.pdf>
-Overfull \vbox (16.91316pt too high) detected at line 285
+Overfull \vbox (16.91316pt too high) detected at line 286
  []
 
 [40
@@ -969,22 +988,13 @@ File: ../img/uni/fill_response.pdf Graphic file (type pdf)
 system(epstopdf ../img/uni/uni_response.eps)...executed.
 
 
-<../img/uni/uni_response.pdf, id=2292, 614.295pt x 794.97pt>
+<../img/uni/uni_response.pdf, id=2292, 449.68pt x 338.26375pt>
 File: ../img/uni/uni_response.pdf Graphic file (type pdf)
 
-<use ../img/uni/uni_response.pdf>
-Overfull \hbox (58.7029pt too wide) in paragraph at lines 309--309
- []  [] 
- []
+<use ../img/uni/uni_response.pdf> [48
 
-
-Overfull \vbox (83.0351pt too high) detected at line 309
- []
-
-[48
-
- <../img/uni/fill_response.pdf> <../img/uni/uni_response.pdf>]
-(./updates.toc) [49
+ <../img/uni/fill_response.pdf> <../img/uni/uni_response.pdf>] (./updates.toc) 
+[49
 
 ]
 system(epstopdf ../img/mul/fig/pre_In.eps)...executed.
@@ -1000,18 +1010,12 @@ system(epstopdf ../img/mul/fig/In.eps)...executed.
 <../img/mul/fig/In.pdf, id=2401, 449.68pt x 338.26375pt>
 File: ../img/mul/fig/In.pdf Graphic file (type pdf)
 
-<use ../img/mul/fig/In.pdf>
-Overfull \hbox (58.7029pt too wide) in paragraph at lines 318--318
- []  [] 
- []
-
-[50
+<use ../img/mul/fig/In.pdf> [50
 
  <../img/mul/fig/pre_In.pdf> <../img/mul/fig/In.pdf>]
 system(epstopdf ../img/mul/fig/pre_free.eps)...executed.
 
-
-<../img/mul/fig/pre_free.pdf, id=2454, 449.68pt x 338.26375pt>
+ <../img/mul/fig/pre_free.pdf, id=2454, 449.68pt x 338.26375pt>
 File: ../img/mul/fig/pre_free.pdf Graphic file (type pdf)
 
 <use ../img/mul/fig/pre_free.pdf>
@@ -1021,33 +1025,23 @@ system(epstopdf ../img/mul/fig/Free.eps)...executed.
 <../img/mul/fig/Free.pdf, id=2455, 449.68pt x 338.26375pt>
 File: ../img/mul/fig/Free.pdf Graphic file (type pdf)
 
-<use ../img/mul/fig/Free.pdf>
-Overfull \hbox (58.7029pt too wide) in paragraph at lines 326--326
- []  [] 
- []
-
-[51
+<use ../img/mul/fig/Free.pdf> [51
 
  <../img/mul/fig/pre_free.pdf> <../img/mul/fig/Free.pdf>]
 system(epstopdf ../img/mul/fig/Free.eps)...executed.
 
 File: ../img/mul/fig/Free.pdf Graphic file (type pdf)
-
-<use ../img/mul/fig/Free.pdf>
+ <use ../img/mul/fig/Free.pdf>
 system(epstopdf ../img/mul/fig/In.eps)...executed.
 
 File: ../img/mul/fig/In.pdf Graphic file (type pdf)
- <use ../img/mul/fig/In.pdf>
-Overfull \hbox (58.7029pt too wide) in paragraph at lines 334--334
- []  [] 
- []
-
-[52
+ <use ../img/mul/fig/In.pdf> [52
 
 ]
 system(epstopdf ../img/mul/mon/Free.eps)...executed.
 
- <../img/mul/mon/Free.pdf, id=2550, 449.68pt x 338.26375pt>
+
+<../img/mul/mon/Free.pdf, id=2550, 449.68pt x 338.26375pt>
 File: ../img/mul/mon/Free.pdf Graphic file (type pdf)
 
 <use ../img/mul/mon/Free.pdf> [53
@@ -1067,68 +1061,42 @@ File: ../img/mul/mon/In.pdf Graphic file (type pdf)
 ]
 system(epstopdf ../img/real/fig/free.eps)...executed.
 
- <../img/real/fig/free.pdf, id=2701, 614.295pt x 794.97pt>
+ <../img/real/fig/free.pdf, id=2701, 466.74374pt x 407.5225pt>
 File: ../img/real/fig/free.pdf Graphic file (type pdf)
 
-<use ../img/real/fig/free.pdf>
-Overfull \vbox (209.73349pt too high) detected at line 356
- []
-
-[56
+<use ../img/real/fig/free.pdf> [56
 
  <../img/real/fig/free.pdf>]
 system(epstopdf ../img/real/fig/In.eps)...executed.
 
 
-<../img/real/fig/In.pdf, id=2746, 614.295pt x 794.97pt>
+<../img/real/fig/In.pdf, id=2754, 466.74374pt x 407.5225pt>
 File: ../img/real/fig/In.pdf Graphic file (type pdf)
 
-<use ../img/real/fig/In.pdf>
-Overfull \vbox (209.73349pt too high) detected at line 363
- []
-
-[57
+<use ../img/real/fig/In.pdf> [57
 
  <../img/real/fig/In.pdf>]
-system(epstopdf ../img/real/fig/In-Tj.eps)...executed.
-
-
-<../img/real/fig/In-Tj.pdf, id=2791, 614.295pt x 794.97pt>
-File: ../img/real/fig/In-Tj.pdf Graphic file (type pdf)
-
-<use ../img/real/fig/In-Tj.pdf>
-Overfull \vbox (209.73349pt too high) detected at line 370
- []
-
-[58
-
- <../img/real/fig/In-Tj.pdf>]
 system(epstopdf ../img/real/mon/Free.eps)...executed.
 
 
-<../img/real/mon/Free.pdf, id=2836, 449.68pt x 338.26375pt>
+<../img/real/mon/Free.pdf, id=2807, 449.68pt x 338.26375pt>
 File: ../img/real/mon/Free.pdf Graphic file (type pdf)
 
-<use ../img/real/mon/Free.pdf>
-Overfull \vbox (53.08801pt too high) detected at line 377
- []
-
-[59
+<use ../img/real/mon/Free.pdf> [58
 
  <../img/real/mon/Free.pdf>]
 system(epstopdf ../img/real/mon/In.eps)...executed.
 
 
-<../img/real/mon/In.pdf, id=2884, 449.68pt x 338.26375pt>
+<../img/real/mon/In.pdf, id=2855, 449.68pt x 338.26375pt>
 File: ../img/real/mon/In.pdf Graphic file (type pdf)
 
-<use ../img/real/mon/In.pdf>
-Overfull \vbox (53.08801pt too high) detected at line 384
- []
+<use ../img/real/mon/In.pdf> [59
 
+ <../img/real/mon/In.pdf>] (./updates.toc)
 [60
 
- <../img/real/mon/In.pdf>] (./updates.toc) [61
+] [61
 
 ]
 \tf@nav=\write6
@@ -1142,10 +1110,10 @@ Overfull \vbox (53.08801pt too high) detected at line 384
 
  (./updates.aux) ) 
 Here is how much of TeX's memory you used:
- 11184 strings out of 256216
- 202136 string characters out of 1917073
- 308174 words of memory out of 1500000
- 13930 multiletter control sequences out of 10000+200000
+ 11266 strings out of 256216
+ 202978 string characters out of 1917073
+ 309817 words of memory out of 1500000
+ 14008 multiletter control sequences out of 10000+200000
  49174 words of font info for 64 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
  43i,20n,65p,315b,780s stack positions out of 5000i,500n,6000p,200000b,15000s
@@ -1155,9 +1123,9 @@ msy6.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy8.pfb></usr/share/texmf/f
 onts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf/fonts/type1/urw/helvetic/u
 hvbo8a.pfb></usr/share/texmf/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/te
 xmf/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on updates.pdf (61 pages, 2303197 bytes).
+Output written on updates.pdf (61 pages, 2524628 bytes).
 PDF statistics:
- 3044 PDF objects out of 3580 (max. 8388607)
+ 3057 PDF objects out of 3580 (max. 8388607)
  139 named destinations out of 1000 (max. 131072)
- 326 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 321 words of extra memory for PDF output out of 10000 (max. 10000000)
 

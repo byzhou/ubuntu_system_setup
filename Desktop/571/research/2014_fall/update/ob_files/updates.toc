@@ -11,4 +11,4 @@
 \beamer@subsectionintoc {3}{1}{Single Gate Simulation}{47}{0}{3}
 \beamer@subsectionintoc {3}{2}{Multiple Gates Simulation}{49}{0}{3}
 \beamer@subsectionintoc {3}{3}{Real Circuit Simulation}{55}{0}{3}
-\beamer@subsectionintoc {3}{4}{Power Results}{61}{0}{3}
+\beamer@subsectionintoc {3}{4}{Power Analysis Results}{60}{0}{3}
