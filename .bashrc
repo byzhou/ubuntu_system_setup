@@ -7,6 +7,10 @@ export PS1='\u@\h$(pwd)$ '
 #PATH=$PATH:/mnt/support/vlsi/monde/opt/mentor/modelsim-6.6b/modeltech/bin
 #export PATH
 
+#export latex
+
+PATH=/ad/eng/research/eng_research_icsg/schuyler/usr/texlive/2012/bin/x86_64-linux:$PATH
+
 PATH=$PATH:/mnt/support/vlsi/monde/opt/mentor/modelsim-6.6b/modeltech/bin
 PATH=$PATH:/mnt/support/vlsi/monde/opt/cadence/bin
 export PATH
@@ -56,7 +60,7 @@ alias ndmatlab="matlab -nodisplay -nosplash"
 
 #source /ad/eng/opt/cadence/cdssetup/add_soc710.sh
 
-alias ec535="cd /home/bobzhou/ec535/lab/lab5"
+alias ec535="cd /home/bobzhou/ec535/ec535_hw/hw4/mywork/blowfish"
 alias review="cd /home/bobzhou/notes/ob_files"
 
 alias tmp="cd /tmp/bobzhou"
@@ -84,4 +88,5 @@ alias chrome="/ad/eng/bin/64/chromium &"
 #alias arm-linux-gcc="/ad/eng/courses/ec/ec535/arm-linux/bin/arm-linux-gcc"
 #alias arm-linux-gcc="/ad/eng/courses/ec/ec535/gumstix/oe/cross/bin/arm-linux-gcc"
 alias arm-linux-objdump="/ad/eng/courses/ec/ec535/arm-linux/bin/arm-linux-objdump"
+
 
