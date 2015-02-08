@@ -1,0 +1,197 @@
+\documentclass[]{article}
+\usepackage{graphicx}
+
+\parindent=0pt
+\usepackage[margin=0.5in]{geometry}
+
+\begin{document}
+\pagestyle{empty}
+{\large\textbf{Research Notes}}
+\begin{itemize}
+    \item[*] Created on Sept 6, 2014
+    \item[*] Modified on \today
+    \item[*] Author info: Boyou Zhou\\
+             8 St Mary's St, PHO 340, Boston, MA 02215\\
+             Email: bobzhou@bu.edu, Phone: 617-678-8480
+\end{itemize}
+
+
+\rule[-0.1cm]{7.5in}{0.01cm}\\
+\\
+\noindent \textbf{Sept 6,2014}
+\textit{Wide I/O with 4096b TSVs Through an active silicon interposer with in-place waveform capturing}
+\indent		\begin{itemize}
+            \item \textit{main motivation} The reason why 3D stacking is not applicable towards the massive production is that TSV is to expensive for massive production.
+            The interposer is active, it can be controlled actively through the control. 
+            The main point is to use the interposer to detect the waveform throught the TSV in order to build up a test agent to test the communication between different layers.
+            \item \textit{main idea} The idea is that the chip needs massive amount of veritical connections.
+            The silicon interposers in the stack provide pitch in horizontal and veritical channels for the accomodating TSVs and uBunmps.
+            In the paper, the author states well about how the chip is going to test and describe the testing agent function's behavior.
+            \item \textit{critcs} The BIST is through the traditional design and most of the ideas are to modify the current idea into an interposer.
+            Personally, I think it is a good paper to present the idea to work in the future, but the application for the 3D is very limited.
+        \end{itemize}
+
+\noindent \textbf{Sept 7,2014}
+\textit{An 8MHz 75uA/MHz Zero leakage non-volatile logic based cortex mo MCU Soc exhibiting 100percent digital state retention at vdd=0}
+\indent		\begin{itemize}
+            \item \textit{main motivation} 
+                TI proposed an idea to use the logic based memory which is also non-volatile.
+                The system also reduces the wake up time when the vdd starts to power up from 0 voltage.
+               
+            \item \textit{main idea} 
+                The idea is to use capacitor to store the information.
+                The best part of the paper is that it use the control signal to control the writing operation towards the NV cells.
+                The effective driver will accelerate the read and write time.
+                
+            \item \textit{Critics}
+                The price pay to the area is enormouse. 
+                The entire on cell has been increased into several capacitors.
+                I did not lookinto this paper, but I think it is a good paper to start to understand fast read and write to NV cells. 
+        \end{itemize}
+
+\noindent \textbf{Sept 8,2014}
+\textit{A High Performance eleiptic curve cryptographic processor over GF(p) with SPA Resistance}
+\indent		\begin{itemize}
+
+            \item \textit{SPA} Simple Power Analysis. It is related to the security problem of the hardware.\textbf{SPA attacks}
+
+            \item \textit{Montgomery modular multiplication} It is an algorithm that proves to be much more efficient after several hundreds of bits.\textbf{interesting algorithm}
+            
+            \item \textit{eleiptic curve crytographic system} It is another cryptographic systems as an alternative towards RSA system. It can achieve 160 bits security as RSA can do
+                in 1024 bit. Personally, I support to use the state of art cryptology for the hardware securty testbench. Once again, the cryptology involves the finite field study.
+                Thus, I think, it is very important to read through the finite field study.
+
+            \item \textit{main motivation} SPA has presented a great threat for hardware devices of public cryptosystems. By analyzing the power consumption, it is easy to detect
+                the private key's value. That is why the paper proposes a better way to counter SPA. The Montgomery modular multiplication is used for high speed modular computation, which
+                is needed in encryptography.
+
+            \item \textit{Basic idea} The paper is about use the ECCS to build a system that can counter SPA. The idea is to build it.
+
+            \item \textit{Critics} I do not know much about the security part. But I am sure there should be a way to breach it. Anyway, it is good way to start looking into the security
+                problems. Understanding the public keys and private keys.
+
+            \end{itemize}
+
+\noindent \textbf{Sept 9,2014}
+\textit{A 65 nm 39GOPS/W 24-Core Processor with 11Tb/s/W Packet-Controlled Circuit-Switched Double-layer Network-on-chip and heterogeneous execution array}
+\indent		\begin{itemize}
+            \item \textit{Main motivation} The processor has been organized in 2D mesh.
+            Each cluster contains its own VCO, which confused me that how the clock can be synchronized.
+            The system contains aggressive clock gating. The cores are the same, but one has reconfigurable arrays.
+
+            \item \textit{Basic idea} The idea of the paper is to use the packet switching to control circuit switching.
+            Circuit switching is for a higher energy efficiency.
+            The packet switching is extremely efficient in the small amount of data. \textbf{doubt}
+            The circuit switching has a higher efficiency in energy saving.\\
+
+            The processor has used x-y dimension ordered routing algorithm.\textbf{place and route algorithm}
+            The clock signal has been transmitted with the data bits so that synchronization has been achieved.
+            The data and clock will be resynchronized after several nodes.
+            These guys have set up a reconfigurable parts for flexible connections and configurable units.
+            These units basic for re-routing to some special functional units for some complex computation.
+
+            \item \textit{critics} Awsome idea on the core-to-core communication for the circuit level.
+            The processor did not measure IPC for the efficiency of the execution.
+            I guess it is not good, because the architecture is pretty simple.
+            It is using RISC for the main core.
+
+            \end{itemize}
+
+\noindent \textbf{class notes, Sept 9, 2014}
+\textit{PCB project}
+\indent		\begin{itemize}
+
+            \item   file $>$ new $>$ project $>$ PCB project
+            \item   file $>$ new $>$ libary $>$ schematic 
+            \item   Goes to digikey and find the component that you need. Pick up the library component first.
+                    In the end of the datasheet, we can see the schematic.
+            \item   Tools $>$  IPC Footprint Wizard
+            \item   package overall dimension. Sometimes it needs to specify the max and min dimension. SOT23 on the first page on the datasheet.
+                    Pick the SOT23 so that you can sold it easily.
+            \item   Wizard will goes through some parameter that should be default. 
+            \item   Footprint Dimensions. It will have pad dimension that we can make it a little comfortable to do it.
+            \item   Put it in the library.
+
+            \item   Purple means the exposed metal layer. Red means hidden metal layers. Blue means middle. Overlay layer means notes.
+                    Top solder and bottom solder for sold.
+            \item   Two layers of PCB.
+
+            \item   Create a non-std footprint.
+            \item   PCB library. It can show the form.
+            \item   Add another awesome item.
+            \item   Use the button q. It can change from inch to mm or mm to inch.
+            \item   The pad can goes through and goes to a bottom.
+            \item   Double click the pad. The hole should be 130 100.
+            \item   In the Layer option, you can change the pads through the board. The via does not appear in the library.
+            \item   x for fliping, space for rotating.
+            \item   Library Component Properties.Default Designator is the name of the components. You are going to write U?. Model with schematics.
+            \item   In the schematics, place port. Use the tab key, it will come up with the proporties of pins. Use the \ for the name of the
+                    port.
+            \item   Source document. Make a new schametics. Place parts that we created in the library.
+            \item   Place wires. The cross will become a large x to indicate the connection.
+            \item   Place labels. Put the value of the components.
+            \item   PgUp and PgDown are zoom in or zoome
+            \item   Tools $>$ take schametics. It needs individual names. Annotate schametics.
+            \item   Right click on something and Update schematic and the footprint name will be consistant with the updated library.
+            \item   There is a global ground to connect all the stuff.
+            \item   File $>$ new PCB
+            \item   Grid can be changed.
+            \item   Make two boards.
+            \item   In mechanical 1, I can draw the boundaries.
+            \item   Design $>$ Boundary 
+            \item   Design $>$ Import blabla design
+            \item   Top level to down. 
+            \item   Routing part from the top to down. Interactive connecting.
+            \item   Design $>$ layer stack manager.
+            \item   Tools $>$ Design Rools Check
+            \item   Garber setup. Send this to fab.
+            \item   NC Drill file. This is for holes. Use the binary file.
+            \item   Bill material.
+
+            \end{itemize}
+
+\noindent \textbf{ Sept 10, 2014}
+\textit{Energy-Efficient Clocking Based on Resonant Switching for Low-Power Computation}
+\indent		\begin{itemize}
+
+            \item \textit{Landauer's principle concerning irreversible logic} There is a minimum energy dissipation of $k_{B}Tlog(2)$ when information is erased.
+            \item \textit{EERS} Energy recovery resonant switching.    
+        
+            \item \textit{main motivation} Reducing the energy consumption by using resonant for clocking signal.
+
+            \item \textit{main idea} Generate a clock signal with very low cost of energy by implementing the resonant circuit. 
+
+            \item \textit {critics} The frequency of the circuit is going to be low.
+            The use of inductor in the IC is very costly. I believe the author did not tape out the chip.
+
+            \end{itemize}
+
+\noindent \textbf{ Sept 11, 2014}
+\textit{A 200mV 32b Subthreshold Processor with Adaptive Supply Voltage Control}
+\indent		\begin{itemize}
+            \item \textit{main motivation} The circuit needs to work under a much lower supply voltage in order to save energy. 
+            The author proposed that current ways of voltage or frequency is overly pessimistic.
+            It needs a PFD ( phase / frequency) detector for detecting the errors.
+
+            \end{itemize}
+
+\noindent \textbf{ Sept 12, 2014}
+\textit{A 25MHz 7uW/MHz Ultra-Low-Voltage Microcontroller SoC in 65nm LP/GP CMOS for Low-Carbon Wireless Sensor Nodes}
+\indent		\begin{itemize}
+            \item \textit{main motivation} Minimizing the carbon footprint of each node is paramount for sustainable perspective.
+            
+            \item \textit{main idea} Build a chip. There is one interesting thing that it does for th espurious transitions on the level shifters.
+            It uses a glitch-masking gate in the cache for the addressing data.
+            The PVT caused timing errors detection is implemented with a critical path replica ring osc.
+            Forward body biased at ULV has been implemented in active mode.
+            In sleep mode, the body biaed recovers to zero for low energy cost.
+            Clock skew easily jeopardizeds the hold time, so that the system uses the clock tree to buffer the clock.
+            The conventional ultra low voltage design does not have this design.
+            The author has used the idea of having this design.
+
+            \item \textit{cirtics}
+            Basically, there is no innovative part that is significant. 
+            The best part I see is the ULV clock tree design and the cache mask design for mitigate the glitches.
+            \end{itemize} 
+\end{document}
+

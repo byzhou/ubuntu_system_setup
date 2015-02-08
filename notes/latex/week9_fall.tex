@@ -1,0 +1,117 @@
+\documentclass[]{article}
+\usepackage{graphicx}
+\usepackage{amsmath}
+
+\parindent=0pt
+\usepackage[margin=0.5in]{geometry}
+
+\begin{document}
+\pagestyle{empty}
+{\large\textbf{Research Notes}}
+\begin{itemize}
+    \item[*] Created on Oct 27, 2014
+    \item[*] Modified on \today
+    \item[*] Author info: Boyou Zhou\\
+             8 St Mary's St, PHO 340, Boston, MA 02215\\
+             Email: bobzhou@bu.edu, Phone: 617-678-8480
+\end{itemize}
+
+\rule[-0.1cm]{7.5in}{0.01cm}\\
+\\
+\noindent \textbf{Oct 27,2014}
+\textit{High-level Synthesis for Run-time Hardware Trojan Detection and
+Recovery}
+\indent		\begin{itemize}
+            \item \textit{main motivation} The author does not like the idea
+            with side channel analysis. The author propose the idea to detect
+            the trojan and then recover the chip to the normal state. 
+            \item \textit{IP core trojan insertion} Two funciton-equivalent
+            using IP cores from different vendors carrying the same trojan is
+            not very likely.  
+            \item \textit{NC RC} Normal Computation and Re-Computation
+            \item \textit{related work} NC and PC computation's inconsistancy
+            will be viewed as the insertion of harware trojan.
+            \item \textit{architecture asurance} It's like the Boeing747 using
+            three architectures to ensure the accuracy of computation.
+            \item \textit{ILP} The auther considers the cost problem as an
+            optimization problem. Pretty awesome they convert binary problem to
+            a linear optimization problem.
+            \item \textit{critics} Cost paid for getting two identical IP
+            cores.
+            \item \textit{high-level synthesis} GAUT, a high level synthesis
+            tool.
+            \end{itemize}
+
+\noindent \textbf{Oct 28,2014}
+\textit{Provably Complete Hardware trojan Detection Using Test Point Insertion}
+\indent		\begin{itemize}
+            \item \textit{delay detection compared to current testing} Delay
+            testing is better than the leakage tesing, because of 
+                \begin{itemize}
+                    \item Linear dependence of delays on process variation
+                    \item limited number of components
+                \end{itemize}
+            \item \textit{main motivation} In order to improve the performance
+            of delay analysis in trojan detection, the author introduce testing
+            point for the circuit for seperate parallel paths and enables their
+            delay measurement.  A SAT-based input vector selection for
+            characterizing each single path.
+            \item \textit{ATPG} Automatic test pattern generation
+            \item \textit{algorithm} Find all the reconvergence path and insert
+            D-flipflops in order to use the timing analysis.
+            \item \textit{critics} They added to much input cap due to the
+            added flipflop.
+       		\end{itemize}
+
+\noindent \textbf{Oct 28,2014}
+\textit{EC535 lab note}
+\indent		\begin{itemize}
+                \item \textit{I2c position gumstix} \\
+                nc nc power gnd
+                nc gpio17 nc nc
+       		\end{itemize}
+
+\noindent \textbf{Oct 29,2014}
+\textit{PageRank}
+\indent		\begin{itemize}
+                \item \textit{assumption} How important a website is depends on
+                how many links point towards it. The more being pointed, the
+                more important it is.
+                \item \textit{example} There is a small universe of examples,
+                A, B, C, and D. At first, all the PR value for these four are
+                evenly distributed as $0.25$. If A, B, C point at D, then they
+                dump all their value to D, as D is $0.75$. It one node is
+                pointing at multiple nodes, then the possibility will be evenly
+                distributed. As A points at B and C, then each dumped
+                possibility will be $0.125$. However, one PR value is not only
+                depends on the dumped possibility but also being affected by
+                the dump factor.
+                \begin{equation}
+                    PR(p_{i}) = \frac{1-d}{N} + d\sum\limits_{(p_{j}) \in
+                    M(p_{i})} \frac{PR(p_{j})}{L(p_{j})}
+                \end{equation}
+                \item \textit{critics} The \textit{farm links} will alter the
+                importance of a group of websites. There must be more fraud
+                website detections for those websites.
+                \item \textit{development} Penguin and Panda
+                    \begin{itemize}
+                        \item \textit{Penguin} It is aiming at detection of
+                        cross language affection upon the eigenvalue, the
+                        dumping factor.
+                        \item \textit{panda} It is proposed to get rid of the
+                        low quality websites.
+                        \item \textit{link farm detection} This is a trade
+                        secret of the company.
+                    \end{itemize}
+            \end{itemize}
+
+\noindent \textbf{Oct 30,2014}
+\textit{On Application of One-class SVM to Reverse Engineering-Based Hardware
+Trojan Detection}
+\indent		\begin{itemize}
+
+                \item \textit{SVM} Support Vector Machine
+                \item \textit{main motivation}
+            \end{itemize}
+\end{document}
+
