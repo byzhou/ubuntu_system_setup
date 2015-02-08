@@ -11,6 +11,7 @@ set expandtab
 "set spellfile=~/vim/spell/en.utf-8.add
 "set spell
 
+set textwidth=80
 set autoread
 colorscheme elflord
 

@@ -61,11 +61,12 @@ alias ndmatlab="matlab -nodisplay -nosplash"
 #source /ad/eng/opt/cadence/cdssetup/add_soc710.sh
 
 alias ec535="cd /home/bobzhou/ec535/ec535_hw/hw4/mywork/blowfish"
-alias review="cd /home/bobzhou/notes/ob_files"
+alias review="cd /home/bobzhou/notes/tmp_review/ob_files"
 
 alias tmp="cd /tmp/bobzhou"
 alias ec782="cd /home/bobzhou/ec782/ob_files"
 alias fallwork="cd /home/bobzhou/Desktop/571/research/2014_fall/hardware_security"
+alias winterwork="cd /home/bobzhou/Desktop/571/research/2014_winter"
 
 alias enggrid="ssh -X -c blowfish -C bobzhou@engineering-grid1.bu.edu"
 alias slides="cd /home/bobzhou/Desktop/571/research/2014_fall/update/ob_files"
@@ -89,4 +90,4 @@ alias chrome="/ad/eng/bin/64/chromium &"
 #alias arm-linux-gcc="/ad/eng/courses/ec/ec535/gumstix/oe/cross/bin/arm-linux-gcc"
 alias arm-linux-objdump="/ad/eng/courses/ec/ec535/arm-linux/bin/arm-linux-objdump"
 
-
+alias mnt="cd /mnt/nokrb/bobzhou/fall_2014/"
