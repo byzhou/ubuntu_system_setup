@@ -91,3 +91,6 @@ alias chrome="/ad/eng/bin/64/chromium &"
 alias arm-linux-objdump="/ad/eng/courses/ec/ec535/arm-linux/bin/arm-linux-objdump"
 
 alias mnt="cd /mnt/nokrb/bobzhou/fall_2014/"
+
+#gdsimport project
+alias gdspy="cd /home/byzhou/2015_spring/pythongdsII/gdsimport"
