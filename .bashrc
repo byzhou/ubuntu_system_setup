@@ -90,7 +90,11 @@ alias chrome="/ad/eng/bin/64/chromium &"
 #alias arm-linux-gcc="/ad/eng/courses/ec/ec535/gumstix/oe/cross/bin/arm-linux-gcc"
 alias arm-linux-objdump="/ad/eng/courses/ec/ec535/arm-linux/bin/arm-linux-objdump"
 
+#mnt drive for 2015_DAC
 alias mnt="cd /mnt/nokrb/bobzhou/fall_2014/"
 
 #gdsimport project
 alias gdspy="cd /home/byzhou/2015_spring/pythongdsII/gdsimport"
+
+#VNCviewer
+alias VNCviewer="cd ~/mybin/ && ./VNCviewer &" 
