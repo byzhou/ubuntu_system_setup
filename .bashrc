@@ -46,7 +46,7 @@ alias asic="cd /home/bobzhou/Desktop/571/research/asic_flow"
 alias system_setup="cd /home/bobzhou/system_setup"
             
 alias h="history"
-       
+                   
 #alias papers="cd /home/bobzhou/Dropbox/research/papers && l"
 #alias ISSCC="cd /home/bobzhou/Dropbox/research/papers/ISSCC_2012"
 #alias pipe="cd /home/bobzhou/Dropbox/research/2014_fall/codes/KSA/run_file"
@@ -66,6 +66,7 @@ alias review="cd /home/bobzhou/notes/tmp_review/ob_files"
 alias tmp="cd /tmp/bobzhou"
 alias ec782="cd /home/bobzhou/ec782/ob_files"
 alias fallwork="cd /home/bobzhou/Desktop/571/research/2014_fall/hardware_security"
+alias springwork = "cd /home/bobzhou/Desktop/571/research/2015_spring" 
 alias winterwork="cd /home/bobzhou/Desktop/571/research/2014_winter"
 
 alias enggrid="ssh -X -c blowfish -C bobzhou@engineering-grid1.bu.edu"
@@ -87,7 +88,17 @@ unset SSH_ASKPASS
 alias chrome="/ad/eng/bin/64/chromium &"
 #gcc compiler
 #alias arm-linux-gcc="/ad/eng/courses/ec/ec535/arm-linux/bin/arm-linux-gcc"
-#alias arm-linux-gcc="/ad/eng/courses/ec/ec535/gumstix/oe/cross/bin/arm-linux-gcc"
-alias arm-linux-objdump="/ad/eng/courses/ec/ec535/arm-linux/bin/arm-linux-objdump"
+#alias
+arm-linux-gcc="/ad/eng/courses/ec/ec535/gumstix/oe/cross/bin/arm-linux-gcc"
+alias
+arm-linux-objdump="/ad/eng/courses/ec/ec535/arm-linux/bin/arm-linux-objdump"
 
+#mnt drive for 2015_DAC
 alias mnt="cd /mnt/nokrb/bobzhou/fall_2014/"
+
+#gdsimport project
+alias gdspy="cd /home/byzhou/2015_spring/pythongdsII/gdsimport"
+
+#VNCviewer
+alias VNCviewer="cd ~/mybin/ && ./VNCviewer &" 
+
