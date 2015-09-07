@@ -7,9 +7,9 @@ set smartindent
 set tabstop=4
 set expandtab
 
-"setglobal spell spelllang=en_us
-"set spellfile=~/vim/spell/en.utf-8.add
-"set spell
+setglobal spell spelllang=en_us
+set spellfile=~/vim/spell/en.utf-8.add
+set spell
 
 set textwidth=100
 set autoread
