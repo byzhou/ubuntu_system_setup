@@ -1,3 +1,0 @@
-git add .
-git commit -m "AUTOCOMMIT `whoami`@`hostname`:`date`"
-git push origin master
