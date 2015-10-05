@@ -1,0 +1,13 @@
+[0] Config.pm:361> INFO - This is Biber 1.5
+[1] Config.pm:364> INFO - Logfile is 'updates.blg'
+[146] biber:193> INFO - === Tue Mar 17, 2015, 13:37:59
+[148] Biber.pm:327> INFO - Reading 'updates.bcf'
+[263] Biber.pm:619> INFO - Found 11 citekeys in bib section 0
+[281] Biber.pm:2976> INFO - Processing section 0
+[299] Biber.pm:3086> INFO - Looking for bibtex format file 'updates.bib' for section 0
+[345] bibtex.pm:764> INFO - Found BibTeX data source 'updates.bib'
+[553] Biber.pm:2860> INFO - Overriding locale 'en_US.UTF-8' default tailoring 'variable = shifted' with 'variable = non-ignorable'
+[553] Biber.pm:2866> INFO - Sorting 'entry' list 'nty' keys
+[553] Biber.pm:2870> INFO - No sort tailoring available for locale 'en_US.UTF-8'
+[682] bbl.pm:462> INFO - Writing 'updates.bbl' with encoding 'latin1'
+[685] bbl.pm:535> INFO - Output to updates.bbl

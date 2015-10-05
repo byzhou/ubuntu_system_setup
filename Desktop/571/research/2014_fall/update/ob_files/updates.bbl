@@ -1,0 +1,281 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{entry}{nty}
+    \entry{alkabani2007remote}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{hash=945d71534d062ed69c954edba0a1d2c8}{Alkabani}{A\bibinitperiod}{Yousra}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=d1642679ae78814302ce585a8ca745a8}{Koushanfar}{K\bibinitperiod}{Farinaz}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=db1561dc09eb9d60411bc982d0e1614f}{Potkonjak}{P\bibinitperiod}{Miodrag}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=945d71534d062ed69c954edba0a1d2c8}{Alkabani}{A\bibinitperiod}{Yousra}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=d1642679ae78814302ce585a8ca745a8}{Koushanfar}{K\bibinitperiod}{Farinaz}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=db1561dc09eb9d60411bc982d0e1614f}{Potkonjak}{P\bibinitperiod}{Miodrag}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {IEEE Press}%
+      }
+      \strng{namehash}{34d319fc05dac12040a4672be841fd02}
+      \strng{fullhash}{34d319fc05dac12040a4672be841fd02}
+      \field{sortinit}{A}
+      \field{labeltitle}{Remote activation of ICs for piracy prevention and digital right management}
+      \field{booktitle}{Proceedings of the 2007 IEEE/ACM international conference on Computer-aided design}
+      \field{title}{Remote activation of ICs for piracy prevention and digital right management}
+      \field{year}{2007}
+      \field{pages}{674\bibrangedash 677}
+    \endentry
+    \entry{altera2009}{inproceedings}{}
+      \field{sortinit}{D}
+      \field{labeltitle}{Design security in Stratix III devices Altera White Paper 0101}
+      \field{title}{Design security in Stratix III devices Altera White Paper 0101}
+      \field{year}{2009}
+    \endentry
+    \entry{guin2014counterfeit}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=becb1e678d62c7630e80cd4945175051}{Guin}{G\bibinitperiod}{Ujjwal}{U\bibinitperiod}{}{}{}{}}%
+        {{hash=94f903e936f2bb239acd206c2966593e}{DiMase}{D\bibinitperiod}{Daniel}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=a46c1ad3090d4946655be721ff7a473f}{Tehranipoor}{T\bibinitperiod}{Mohammad}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=becb1e678d62c7630e80cd4945175051}{Guin}{G\bibinitperiod}{Ujjwal}{U\bibinitperiod}{}{}{}{}}%
+        {{hash=94f903e936f2bb239acd206c2966593e}{DiMase}{D\bibinitperiod}{Daniel}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=a46c1ad3090d4946655be721ff7a473f}{Tehranipoor}{T\bibinitperiod}{Mohammad}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{379f1a77bbc22ddd7efc281f5c3e8aa5}
+      \strng{fullhash}{379f1a77bbc22ddd7efc281f5c3e8aa5}
+      \field{sortinit}{G}
+      \field{labeltitle}{Counterfeit integrated circuits: detection, avoidance, and the challenges ahead}
+      \field{journaltitle}{Journal of Electronic Testing}
+      \field{number}{1}
+      \field{title}{Counterfeit integrated circuits: detection, avoidance, and the challenges ahead}
+      \field{volume}{30}
+      \field{year}{2014}
+      \field{pages}{9\bibrangedash 23}
+    \endentry
+    \entry{maes2012pay}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=e5155d0251d24b8107b8bf3664368038}{Maes}{M\bibinitperiod}{Roel}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=60555b637819ca0cfd8b4d3c87799db9}{Schellekens}{S\bibinitperiod}{Dries}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=bfe0a642d06f77a231ed11d0d3aa70c3}{Verbauwhede}{V\bibinitperiod}{Ingrid}{I\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=e5155d0251d24b8107b8bf3664368038}{Maes}{M\bibinitperiod}{Roel}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=60555b637819ca0cfd8b4d3c87799db9}{Schellekens}{S\bibinitperiod}{Dries}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=bfe0a642d06f77a231ed11d0d3aa70c3}{Verbauwhede}{V\bibinitperiod}{Ingrid}{I\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{4fe5a7c5a439ba878b6c5e7af619f0eb}
+      \strng{fullhash}{4fe5a7c5a439ba878b6c5e7af619f0eb}
+      \field{sortinit}{M}
+      \field{labeltitle}{A pay-per-use licensing scheme for hardware IP cores in recent SRAM-based FPGAs}
+      \field{journaltitle}{Information Forensics and Security, IEEE Transactions on}
+      \field{number}{1}
+      \field{title}{A pay-per-use licensing scheme for hardware IP cores in recent SRAM-based FPGAs}
+      \field{volume}{7}
+      \field{year}{2012}
+      \field{pages}{98\bibrangedash 108}
+    \endentry
+    \entry{maes2009analysis}{inproceedings}{}
+      \name{labelname}{4}{}{%
+        {{hash=e5155d0251d24b8107b8bf3664368038}{Maes}{M\bibinitperiod}{Roel}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=60555b637819ca0cfd8b4d3c87799db9}{Schellekens}{S\bibinitperiod}{Dries}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=103e9e4cd9b8304b4c3460315a0a6d63}{Tuyls}{T\bibinitperiod}{Pim}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=bfe0a642d06f77a231ed11d0d3aa70c3}{Verbauwhede}{V\bibinitperiod}{Ingrid}{I\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=e5155d0251d24b8107b8bf3664368038}{Maes}{M\bibinitperiod}{Roel}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=60555b637819ca0cfd8b4d3c87799db9}{Schellekens}{S\bibinitperiod}{Dries}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=103e9e4cd9b8304b4c3460315a0a6d63}{Tuyls}{T\bibinitperiod}{Pim}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=bfe0a642d06f77a231ed11d0d3aa70c3}{Verbauwhede}{V\bibinitperiod}{Ingrid}{I\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{3b6f2e4cd0a43ed26791917a6286fc62}
+      \strng{fullhash}{687da338fa4a1636d0db135422eb708c}
+      \field{sortinit}{M}
+      \field{labeltitle}{Analysis and design of active IC metering schemes}
+      \field{booktitle}{Hardware-Oriented Security and Trust, 2009. HOST'09. IEEE International Workshop on}
+      \field{title}{Analysis and design of active IC metering schemes}
+      \field{year}{2009}
+      \field{pages}{74\bibrangedash 81}
+    \endentry
+    \entry{nedospasov2013invasive}{inproceedings}{}
+      \name{labelname}{4}{}{%
+        {{hash=dbc22bafd4c3880d5f24c38175c8a77e}{Nedospasov}{N\bibinitperiod}{Dmitry}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=92fe5eac3e28625fa71983dca824412d}{Seifert}{S\bibinitperiod}{J-P}{J\bibinithyphendelim P\bibinitperiod}{}{}{}{}}%
+        {{hash=29714a2628234d2970d015c525dbfaef}{Helfmeier}{H\bibinitperiod}{Clemens}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=9e2703551ccef662676887cbd8183942}{Boit}{B\bibinitperiod}{Christian}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=dbc22bafd4c3880d5f24c38175c8a77e}{Nedospasov}{N\bibinitperiod}{Dmitry}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=92fe5eac3e28625fa71983dca824412d}{Seifert}{S\bibinitperiod}{J-P}{J\bibinithyphendelim P\bibinitperiod}{}{}{}{}}%
+        {{hash=29714a2628234d2970d015c525dbfaef}{Helfmeier}{H\bibinitperiod}{Clemens}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=9e2703551ccef662676887cbd8183942}{Boit}{B\bibinitperiod}{Christian}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{e6ab0118da0fc03e43f1fb1d1198b46a}
+      \strng{fullhash}{f2e624fb57f8aa769f14c68bc8696e6e}
+      \field{sortinit}{N}
+      \field{labeltitle}{Invasive PUF analysis}
+      \field{booktitle}{Fault Diagnosis and Tolerance in Cryptography (FDTC), 2013 Workshop on}
+      \field{title}{Invasive PUF analysis}
+      \field{year}{2013}
+      \field{pages}{30\bibrangedash 38}
+    \endentry
+    \entry{roy2008epic}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{hash=3afda2286cb7858ba33e514151064280}{Roy}{R\bibinitperiod}{Jarrod\bibnamedelima A}{J\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=d1642679ae78814302ce585a8ca745a8}{Koushanfar}{K\bibinitperiod}{Farinaz}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=ae9d3233fdc65ff516fcd347cd5f0185}{Markov}{M\bibinitperiod}{Igor\bibnamedelima L}{I\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=3afda2286cb7858ba33e514151064280}{Roy}{R\bibinitperiod}{Jarrod\bibnamedelima A}{J\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=d1642679ae78814302ce585a8ca745a8}{Koushanfar}{K\bibinitperiod}{Farinaz}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=ae9d3233fdc65ff516fcd347cd5f0185}{Markov}{M\bibinitperiod}{Igor\bibnamedelima L}{I\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{0f2f7f6bf1eabb9d9f4829cb4d04f4f6}
+      \strng{fullhash}{0f2f7f6bf1eabb9d9f4829cb4d04f4f6}
+      \field{sortinit}{R}
+      \field{labeltitle}{EPIC: Ending piracy of integrated circuits}
+      \field{booktitle}{Proceedings of the conference on Design, automation and test in Europe}
+      \field{title}{EPIC: Ending piracy of integrated circuits}
+      \field{year}{2008}
+      \field{pages}{1069\bibrangedash 1074}
+    \endentry
+    \entry{roy2008protecting}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{hash=3afda2286cb7858ba33e514151064280}{Roy}{R\bibinitperiod}{Jarrod\bibnamedelima A}{J\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=d1642679ae78814302ce585a8ca745a8}{Koushanfar}{K\bibinitperiod}{Farinaz}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=ae9d3233fdc65ff516fcd347cd5f0185}{Markov}{M\bibinitperiod}{Igor\bibnamedelima L}{I\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=3afda2286cb7858ba33e514151064280}{Roy}{R\bibinitperiod}{Jarrod\bibnamedelima A}{J\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=d1642679ae78814302ce585a8ca745a8}{Koushanfar}{K\bibinitperiod}{Farinaz}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=ae9d3233fdc65ff516fcd347cd5f0185}{Markov}{M\bibinitperiod}{Igor\bibnamedelima L}{I\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{0f2f7f6bf1eabb9d9f4829cb4d04f4f6}
+      \strng{fullhash}{0f2f7f6bf1eabb9d9f4829cb4d04f4f6}
+      \field{sortinit}{R}
+      \field{labeltitle}{Protecting bus-based hardware IP by secret sharing}
+      \field{booktitle}{Proceedings of the 45th annual Design Automation Conference}
+      \field{title}{Protecting bus-based hardware IP by secret sharing}
+      \field{year}{2008}
+      \field{pages}{846\bibrangedash 851}
+    \endentry
+    \entry{wei2012hardware}{inproceedings}{}
+      \name{labelname}{4}{}{%
+        {{hash=bc0511880fa24a78d6d0f0aa7e571bda}{Wei}{W\bibinitperiod}{Sheng}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=4838f7fdd28d5cefb28f3b3c734976d4}{Li}{L\bibinitperiod}{Kai}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=d1642679ae78814302ce585a8ca745a8}{Koushanfar}{K\bibinitperiod}{Farinaz}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=db1561dc09eb9d60411bc982d0e1614f}{Potkonjak}{P\bibinitperiod}{Miodrag}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=bc0511880fa24a78d6d0f0aa7e571bda}{Wei}{W\bibinitperiod}{Sheng}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=4838f7fdd28d5cefb28f3b3c734976d4}{Li}{L\bibinitperiod}{Kai}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=d1642679ae78814302ce585a8ca745a8}{Koushanfar}{K\bibinitperiod}{Farinaz}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=db1561dc09eb9d60411bc982d0e1614f}{Potkonjak}{P\bibinitperiod}{Miodrag}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{df66a9070862f00480eaac571703190d}
+      \strng{fullhash}{38b8ae012b1e03e609e6e96087e37b68}
+      \field{sortinit}{W}
+      \field{labeltitle}{Hardware Trojan horse benchmark via optimal creation and placement of malicious circuitry}
+      \field{booktitle}{Proceedings of the 49th Annual Design Automation Conference}
+      \field{title}{Hardware Trojan horse benchmark via optimal creation and placement of malicious circuitry}
+      \field{year}{2012}
+      \field{pages}{90\bibrangedash 95}
+    \endentry
+    \entry{wieczorek2014dual}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=1a22086bb6e0e980ad5deee3efaa6577}{Wieczorek}{W\bibinitperiod}{Piotr\bibnamedelima Zbigniew}{P\bibinitperiod\bibinitdelim Z\bibinitperiod}{}{}{}{}}%
+        {{hash=c83036a6e6e2dc025d708ffae7ec3682}{Golofit}{G\bibinitperiod}{Krzysztof}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=1a22086bb6e0e980ad5deee3efaa6577}{Wieczorek}{W\bibinitperiod}{Piotr\bibnamedelima Zbigniew}{P\bibinitperiod\bibinitdelim Z\bibinitperiod}{}{}{}{}}%
+        {{hash=c83036a6e6e2dc025d708ffae7ec3682}{Golofit}{G\bibinitperiod}{Krzysztof}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{2a17550ccad053edbecaebb9978e8251}
+      \strng{fullhash}{2a17550ccad053edbecaebb9978e8251}
+      \field{sortinit}{W}
+      \field{labeltitle}{Dual-metastability time-competitive true random number generator}
+      \field{journaltitle}{Circuits and Systems I: Regular Papers, IEEE Transactions on}
+      \field{number}{1}
+      \field{title}{Dual-metastability time-competitive true random number generator}
+      \field{volume}{61}
+      \field{year}{2014}
+      \field{pages}{134\bibrangedash 145}
+    \endentry
+    \entry{zhang2013fpga}{inproceedings}{}
+      \name{labelname}{8}{}{%
+        {{hash=f0be3c96399d3c6737075b6be0b067f1}{Zhang}{Z\bibinitperiod}{Jiliang}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=17e2719de97f4371513a709d05ccd03f}{Lin}{L\bibinitperiod}{Yaping}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=b6039d59f1af4f027dff463a626a37ef}{Lyu}{L\bibinitperiod}{Yongqiang}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=962e8813ef487d437c10636f3cda834c}{Qu}{Q\bibinitperiod}{Gang}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=e7e138be17c708d437b58a31256bc24a}{Cheung}{C\bibinitperiod}{Ray\bibnamedelima CC}{R\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=3b40e37ba2fa018782626bca4bab5ad4}{Che}{C\bibinitperiod}{Wenjie}{W\bibinitperiod}{}{}{}{}}%
+        {{hash=f623cc51d03ac4acc7aba477043a270b}{Zhou}{Z\bibinitperiod}{Qiang}{Q\bibinitperiod}{}{}{}{}}%
+        {{hash=9bc459245f6b4bf28aa1b76890d07ba5}{Bian}{B\bibinitperiod}{Jinian}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{8}{}{%
+        {{hash=f0be3c96399d3c6737075b6be0b067f1}{Zhang}{Z\bibinitperiod}{Jiliang}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=17e2719de97f4371513a709d05ccd03f}{Lin}{L\bibinitperiod}{Yaping}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=b6039d59f1af4f027dff463a626a37ef}{Lyu}{L\bibinitperiod}{Yongqiang}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=962e8813ef487d437c10636f3cda834c}{Qu}{Q\bibinitperiod}{Gang}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=e7e138be17c708d437b58a31256bc24a}{Cheung}{C\bibinitperiod}{Ray\bibnamedelima CC}{R\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=3b40e37ba2fa018782626bca4bab5ad4}{Che}{C\bibinitperiod}{Wenjie}{W\bibinitperiod}{}{}{}{}}%
+        {{hash=f623cc51d03ac4acc7aba477043a270b}{Zhou}{Z\bibinitperiod}{Qiang}{Q\bibinitperiod}{}{}{}{}}%
+        {{hash=9bc459245f6b4bf28aa1b76890d07ba5}{Bian}{B\bibinitperiod}{Jinian}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{a9534f2572091393ce88becf4df18aae}
+      \strng{fullhash}{6b7f4e848fd664932f0cfa7c9b0666c8}
+      \field{sortinit}{Z}
+      \field{labeltitle}{FPGA IP protection by binding finite state machine to physical unclonable function}
+      \field{booktitle}{Field Programmable Logic and Applications (FPL), 2013 23rd International Conference on}
+      \field{title}{FPGA IP protection by binding finite state machine to physical unclonable function}
+      \field{year}{2013}
+      \field{pages}{1\bibrangedash 4}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+
