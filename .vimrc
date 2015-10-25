@@ -5,11 +5,11 @@ set tw=80
 set shiftwidth=4
 set smartindent
 set tabstop=4
-set expandtab
+set noexpandtab
 
-setglobal spell spelllang=en_us
-set spellfile=~/vim/spell/en.utf-8.add
-set spell
+"setglobal spell spelllang=en_us
+"set spellfile=~/vim/spell/en.utf-8.add
+"set spell
 
 set textwidth=100
 set autoread
@@ -44,3 +44,5 @@ map! <C-f> \begin{figure}<CR><tab>\includegraphics[width=4in]{}<CR>\caption{}<CR
 "set viminfo='10,\"100,:20,%,n~/.viminfo
 
 set foldmethod=indent
+
+xnoremap p pgvy
