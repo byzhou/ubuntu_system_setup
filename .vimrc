@@ -43,6 +43,29 @@ map! <C-f> \begin{figure}<CR><tab>\includegraphics[width=4in]{}<CR>\caption{}<CR
 "  n... :  where to save the viminfo files
 "set viminfo='10,\"100,:20,%,n~/.viminfo
 
+" indent
 set foldmethod=indent
 
+" continuouse copy
 xnoremap p pgvy
+
+execute pathogen#infect()
+
+
+" syntastic
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+let g:syntastic_tex_checkers = ["lacheck"]
+let g:syntastic_tex_lacheck_quiet_messages = {
+	\ "level": "warnings" }
+
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+
+map <C-n> :NERDTreeToggle<CR>
