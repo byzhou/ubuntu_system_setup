@@ -7,11 +7,11 @@ set smartindent
 set tabstop=4
 set noexpandtab
 
-"setglobal spell spelllang=en_us
-"set spellfile=~/vim/spell/en.utf-8.add
-"set spell
+setglobal spell spelllang=en_us
+set spellfile=~/vim/spell/en.utf-8.add
+set spell
 
-set textwidth=100
+set textwidth=80
 set autoread
 colorscheme elflord
 
