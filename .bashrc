@@ -207,7 +207,6 @@ alias vncviewer="~/vncviewer64 &"
 
 PATH=/mnt/support/software/linux/all/x86_64/lumerical-8.5.3/bin:$PATH
 export PATH="/mnt/support/vlsi/monde/opt/mentor/modelsim-6.6b/modeltech/linux_x86_64/external/:$PATH"
-<<<<<<< HEAD
 
 #qsub
 alias eceqsub="qsub -q ece.q -cwd -b y"
@@ -222,21 +221,4 @@ alias thinkcentre="ssh -Y bobzhou@128.197.176.176"
 # MacPorts Installer addition on 2015-06-16_at_20:50:49: adding an appropriate PATH variable for use with MacPorts.
 export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
 # Finished adapting your PATH environment variable for use with MacPorts.
-=======
-~/enable_gnome_extensions.sh
-alias qutebrowser="~/Downloads/qutebrowser/.venv/bin/python3 -m qutebrowser "$@" &"
-alias colorgcc="~/colorgcc"
-
-# limit the process number
-ulimit -u 10000
-
-# call zbash
 zsh
-
-# scc
-alias scc="ssh bobzhou@scc2.bu.edu -L 1024:localhost:5928"
-
-# dog 
-alias dog="highlight -O xterm256 --failsafe"
-
->>>>>>> origin

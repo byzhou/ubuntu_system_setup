@@ -7,15 +7,9 @@ set smartindent
 set tabstop=4
 set expandtab
 
-<<<<<<< HEAD
 " setglobal spell spelllang=en_us
 " set spellfile=~/vim/spell/en.utf-8.add
 " set spell
-=======
-setglobal spell spelllang=en_us
-set spellfile=~/vim/spell/en.utf-8.add
-set spell
->>>>>>> origin
 
 set textwidth=100
 set autoread
@@ -24,11 +18,8 @@ colorscheme elflord
 set hlsearch
 syntax on
 
-<<<<<<< HEAD
 set foldmethod=indent
 
-=======
->>>>>>> origin
 "veritcal increase 
 function! Incr()
 let a = line('.') - line("'<")
@@ -46,8 +37,6 @@ map! <F4> <C-R>=strftime('%c')<CR>
 map! <C-e> \begin{equation}<CR>\end{equation}
 map! <C-f> \begin{figure}<CR><tab>\includegraphics[width=4in]{}<CR>\caption{}<CR><C-H><C-H><C-H><C-H>\end{figure}
 
-<<<<<<< HEAD
-=======
 " Tell vim to remember certain things when we exit
 "  '10  :  marks will be remembered for up to 10 previously edited files
 "  "100 :  will save up to 100 lines for each register
@@ -56,5 +45,13 @@ map! <C-f> \begin{figure}<CR><tab>\includegraphics[width=4in]{}<CR>\caption{}<CR
 "  n... :  where to save the viminfo files
 "set viminfo='10,\"100,:20,%,n~/.viminfo
 
-set foldmethod=indent
->>>>>>> origin
+execute pathogen#infect()
+
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
