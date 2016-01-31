@@ -5,13 +5,13 @@ set tw=80
 set shiftwidth=4
 set smartindent
 set tabstop=4
-set expandtab
+set noexpandtab
 
 " setglobal spell spelllang=en_us
 " set spellfile=~/vim/spell/en.utf-8.add
 " set spell
 
-set textwidth=100
+set textwidth=80
 set autoread
 colorscheme elflord
 
@@ -46,6 +46,13 @@ map! <C-f> \begin{figure}<CR><tab>\includegraphics[width=4in]{}<CR>\caption{}<CR
 "set viminfo='10,\"100,:20,%,n~/.viminfo
 
 execute pathogen#infect()
+
+set foldmethod=indent
+
+xnoremap p pgvy
+
+execute pathogen#infect()
+
 
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
