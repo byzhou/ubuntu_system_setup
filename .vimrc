@@ -5,11 +5,14 @@ set tw=80
 set shiftwidth=4
 set smartindent
 set tabstop=4
-set noexpandtab
+set expandtab
+autocmd FileType python set set noexpandtab
+autocmd FileType bash set set noexpandtab
 
 setglobal spell spelllang=en_us
 set spellfile=~/vim/spell/en.utf-8.add
-set spell
+" latex spell check
+autocmd FileType tex set set spell
 
 set textwidth=80
 set autoread
@@ -17,7 +20,8 @@ colorscheme elflord
 
 set hlsearch
 syntax on
-
+highlight Comment ctermfg=DarkGrey
+"highlight Normal ctermbg=DarkGrey
 "veritcal increase 
 function! Incr()
 let a = line('.') - line("'<")
@@ -44,7 +48,7 @@ map! <C-f> \begin{figure}<CR><tab>\includegraphics[width=4in]{}<CR>\caption{}<CR
 "set viminfo='10,\"100,:20,%,n~/.viminfo
 
 " indent
-set foldmethod=indent
+"set foldmethod=indent
 
 " continuouse copy
 xnoremap p pgvy
@@ -69,3 +73,8 @@ autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
 map <C-n> :NERDTreeToggle<CR>
+
+"map <C-\> :tab split<CR>:exec("tag ".expand("<cword>"))<CR>
+map <C-]> :rightb vsp <CR>:exec("tag ".expand("<cword>"))<CR>
+
+set splitright
