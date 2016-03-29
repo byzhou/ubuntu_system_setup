@@ -1,3 +1,4 @@
+" basic setup
 set nu 
 
 set tw=80
@@ -5,24 +6,46 @@ set tw=80
 set shiftwidth=4
 set smartindent
 set tabstop=4
-set expandtab
-autocmd FileType python set set noexpandtab
-autocmd FileType bash set set noexpandtab
-
-setglobal spell spelllang=en_us
-set spellfile=~/vim/spell/en.utf-8.add
-" latex spell check
-autocmd FileType tex set set spell
-
+set noexpandtab
+set splitright
 set textwidth=80
 set autoread
-colorscheme elflord
-
 set hlsearch
+"indent
+"set foldmethod=indent
+
 syntax on
+filetype plugin on
+colorscheme elflord
+"continuouse copy
+xnoremap p pgvy
+
+autocmd FileType bash set set noexpandtab
+
+"related to python
+autocmd FileType python set autoindent
+autocmd FileType python set expandtab
+autocmd FileType python set tabstop=4
+autocmd FileType python set softtabstop=4
+autocmd FileType python set shiftwidth=4
+
+"related to latex
+"set file type latex
+au BufRead,BufNewFile *.tex setfiletype latex
+"latex spell check
+autocmd FileType latex setglobal spell spelllang=en_us
+autocmd FileType latex set spellfile=~/vim/spell/en.utf-8.add
+autocmd FileType latex set spell
+autocmd FileType latex set syntax=tex
+autocmd FileType latex let &showbreak="\u21aa "
+
+"background color setup
 highlight Comment ctermfg=DarkGrey
-"highlight Normal ctermbg=DarkGrey
-"veritcal increase 
+let mapleader=','
+ 
+"" special functions
+"veritcal increase, for selected area the numbers will increase consecutively on
+"vertical direction if there ctrl+a is pressed
 function! Incr()
 let a = line('.') - line("'<")
     let c = virtcol("'<")
@@ -39,22 +62,8 @@ map! <F4> <C-R>=strftime('%c')<CR>
 map! <C-e> \begin{equation}<CR>\end{equation}
 map! <C-f> \begin{figure}<CR><tab>\includegraphics[width=4in]{}<CR>\caption{}<CR><C-H><C-H><C-H><C-H>\end{figure}
 
-" Tell vim to remember certain things when we exit
-"  '10  :  marks will be remembered for up to 10 previously edited files
-"  "100 :  will save up to 100 lines for each register
-"  :20  :  up to 20 lines of command-line history will be remembered
-"  %    :  saves and restores the buffer list
-"  n... :  where to save the viminfo files
-"set viminfo='10,\"100,:20,%,n~/.viminfo
-
-" indent
-"set foldmethod=indent
-
-" continuouse copy
-xnoremap p pgvy
-
+" plugins
 execute pathogen#infect()
-
 
 " syntastic
 set statusline+=%#warningmsg#
@@ -69,12 +78,24 @@ let g:syntastic_tex_checkers = ["lacheck"]
 let g:syntastic_tex_lacheck_quiet_messages = {
 	\ "level": "warnings" }
 
+"nerdtree related
+map <C-n> :NERDTreeToggle<CR>
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
-map <C-n> :NERDTreeToggle<CR>
+"git nerd tree related
+let g:NERDTreeIndicatorMapCustom = {
+    \ "Modified"  : "✹",
+    \ "Staged"    : "✚",
+    \ "Untracked" : "✭",
+    \ "Renamed"   : "➜",
+    \ "Unmerged"  : "═",
+    \ "Deleted"   : "✖",
+    \ "Dirty"     : "✗",
+    \ "Clean"     : "✔︎",
+    \ "Unknown"   : "?"
+    \ }
 
-"map <C-\> :tab split<CR>:exec("tag ".expand("<cword>"))<CR>
+"ctags related
 map <C-]> :rightb vsp <CR>:exec("tag ".expand("<cword>"))<CR>
 
-set splitright
