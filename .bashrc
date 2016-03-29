@@ -1,6 +1,7 @@
 #export PS1='\[\e[0;33m\]\u\[\e[0;31m\]@\[\e[0;36m\]\h\[\e[0;32m\]$(pwd)$\[\e[0m\] '
-export PS1='\[\e[0;33m\]\u\[\e[0;31m\]@\[\e[0;36m\]\h\[\e[0;32m\]:$(pwd)$\[\e[0m\]\n\$> '
-
+export PS1="\[\e[0;33m\]\u\[\e[0;31m\]@\[\e[0;36m\]\h\[\e[0;32m\]:$(pwd)$\[\e[0m\] [\`if [ \$? = 0 ]; then echo -e \[\e[32m\]\"\\xE2\\x9C\\x93\"\[\e[0m\]; else echo -e \[\e[31m\]\"\\xE2\\x9D\\x8C\"\[\e[0m\]; fi\`]\n\$> "
+#export PS1='\[\e[0;33m\]\u\[\e[0;31m\]@\[\e[0;36m\]\h\[\e[0;32m\]:$(pwd)$\[\e[0m\]\n\$> '
+#PS1="\`if [ \$? = 0 ]; then echo \[\e[33m\]^_^\[\e[0m\]; else echo \[\e[31m\]O_O\[\e[0m\]; fi\`[\u@\h:\w]\\$ "
 #source /ad/eng/opt/cadence/cdssetup/add_ic614.sh
 #source /ad/eng/opt/cadence/cdssetup/add_freepdk45.sh
 #source /ad/eng/support/software/linux/all/all/synopsys/add_syn.sh
@@ -68,6 +69,8 @@ alias algorithm="cd /home/bobzhou/algorithm/ob_files"
 alias schuyler="cd /home/bobzhou/Desktop/571/research/2014_fall/hardware_security/cadence-modelsim-tutorial"
 
 #for git
+alias commit="git add . &&  git commit -m \"AUTOCOMMIT `whoami`@`hostname`:`date`\""
+alias push="git push origin master"
 alias send="git add . &&  git commit -m \"AUTOCOMMIT `whoami`@`hostname`:`date`\" && git push origin master"
 #ec535
 #export EC535=/ad/eng/courses/ec/ec535
@@ -116,3 +119,14 @@ PATH=/home/bobzhou/2015_fall/zybo-arm-linux/u-boot-Digilent-Dev/tools:$PATH
 alias sshzybo="ssh root@192.168.1.50"
 
 alias colorgcc="~/colorgcc"
+alias zybo="cd /home/bobzhou/2015_fall/zybo-jian-tutorial/my-app-xillinux/xillinux-eval-zybo-1.3c/verilog/src"
+
+alias vhdl2verilog="/home/bobzhou/vhdl2verilog/src/vhd2vl"
+export EDITOR=vim
+
+alias pig="pygmentize"
+
+export PATH=/opt/Xilinx/SDK/2015.2/gnu/arm/lin/bin/:$PATH
+export PATH=/opt/Xilinx/SDK/2015.2/bin/:$PATH
+
+alias grep="grep --color='auto'"
