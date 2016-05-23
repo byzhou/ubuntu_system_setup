@@ -1,8 +1,6 @@
 " basic setup
 set nu 
-
 set tw=80
-
 set shiftwidth=4
 set smartindent
 set tabstop=4
@@ -20,7 +18,13 @@ colorscheme elflord
 "continuouse copy
 xnoremap p pgvy
 
-autocmd FileType bash set set noexpandtab
+" highlight current line
+set cursorline
+hi cursorline cterm=NONE ctermbg=DarkGrey
+" highlight current column
+set cursorcolumn
+
+autocmd FileType bash set noexpandtab
 
 "related to python
 autocmd FileType python set autoindent
@@ -33,14 +37,23 @@ autocmd FileType python set shiftwidth=4
 "set file type latex
 au BufRead,BufNewFile *.tex setfiletype latex
 "latex spell check
+autocmd FileType latex set spell
 autocmd FileType latex setglobal spell spelllang=en_us
 autocmd FileType latex set spellfile=~/vim/spell/en.utf-8.add
-autocmd FileType latex set spell
 autocmd FileType latex set syntax=tex
 autocmd FileType latex let &showbreak="\u21aa "
+autocmd FileType latex set autoindent
+autocmd FileType latex set paste
+
+au BufRead,BufNewFile *.bib setfiletype bib 
+autocmd FileType bib set paste
+
+"specific file settings
+autocmd BufRead,BufNewFile /home/bobzhou/2016_spring/research_docs/*.tex setlocal textwidth=0
 
 "background color setup
 highlight Comment ctermfg=DarkGrey
+"easy commenter plugin
 let mapleader=','
  
 "" special functions

@@ -1,6 +1,7 @@
 #export PS1='\[\e[0;33m\]\u\[\e[0;31m\]@\[\e[0;36m\]\h\[\e[0;32m\]$(pwd)$\[\e[0m\] '
-export PS1="\[\e[0;33m\]\u\[\e[0;31m\]@\[\e[0;36m\]\h\[\e[0;32m\]:$(pwd)$\[\e[0m\] [\`if [ \$? = 0 ]; then echo -e \[\e[32m\]\"\\xE2\\x9C\\x93\"\[\e[0m\]; else echo -e \[\e[31m\]\"\\xE2\\x9D\\x8C\"\[\e[0m\]; fi\`]\n\$> "
-#export PS1='\[\e[0;33m\]\u\[\e[0;31m\]@\[\e[0;36m\]\h\[\e[0;32m\]:$(pwd)$\[\e[0m\]\n\$> '
+#export PS1="\[\e[0;33m\]\u\[\e[0;31m\]@\[\e[0;36m\]\h\[\e[0;32m\]:$(pwd)$\[\e[0m\] [\`if [ \$? = 0 ]; then echo -e \[\e[32m\]\"\\xE2\\x9C\\x93\"\[\e[0m\]; else echo -e \[\e[31m\]\"\\xE2\\x9D\\x8C\"\[\e[0m\]; fi\`]\n\$> "
+export PS1='\[\e[0;33m\]\u\[\e[0;31m\]@\[\e[0;36m\]\h\[\e[0;32m\]:$(pwd)$\[\e[0m\]\n\$>[\`if [ \$? = 0 ]; then echo -e \[\e[32m\]\"\\xE2\\x9C\\x93\"\[\e[0m\]; else echo -e \[\e[31m\]\"\\xE2\\x9D\\x8C\"\[\e[0m\]; fi\`] '
+export PS1='\[\e[0;33m\]\u\[\e[0;31m\]@\[\e[0;36m\]\h\[\e[0;32m\]:$(pwd)$\[\e[0m\]\n\$> '
 #PS1="\`if [ \$? = 0 ]; then echo \[\e[33m\]^_^\[\e[0m\]; else echo \[\e[31m\]O_O\[\e[0m\]; fi\`[\u@\h:\w]\\$ "
 #source /ad/eng/opt/cadence/cdssetup/add_ic614.sh
 #source /ad/eng/opt/cadence/cdssetup/add_freepdk45.sh
@@ -130,3 +131,8 @@ export PATH=/opt/Xilinx/SDK/2015.2/gnu/arm/lin/bin/:$PATH
 export PATH=/opt/Xilinx/SDK/2015.2/bin/:$PATH
 
 alias grep="grep --color='auto'"
+alias mendeley="./home/bobzhou/Downloads/mendeleydesktop-1.16.1-linux-x86_64/bin/mendeleydesktop"
+alias anmol="ssh bobzhou@128.197.176.160"
+alias vnccelnode04="/usr/bin/vncviewer -fullscreen celnode04.bu.edu:5939"
+
+bash enable_gnome_extensions.sh
