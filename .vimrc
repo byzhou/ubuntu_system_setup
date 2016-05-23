@@ -1,10 +1,10 @@
 " basic setup
 set nu 
-set tw=80
+set tw=80  
 set shiftwidth=4
 set smartindent
 set tabstop=4
-set noexpandtab
+set noexpandtab 
 set splitright
 set textwidth=80
 set autoread
@@ -20,10 +20,10 @@ xnoremap p pgvy
 
 " highlight current line
 set cursorline
-hi cursorline cterm=italic
 " highlight current column
 set cursorcolumn
-
+" set popup autocomplete color
+hi Pmenu ctermbg=DarkGrey ctermbg=white 
 autocmd FileType bash set noexpandtab
 
 "related to python
