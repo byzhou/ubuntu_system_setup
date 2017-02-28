@@ -64,7 +64,7 @@ alias fallwork="cd /home/bobzhou/Desktop/571/research/2014_fall/hardware_securit
 alias springwork="cd /ad/eng/research/eng_research_icsg/bobzhou/2015_spring" 
 alias winterwork="cd /home/bobzhou/Desktop/571/research/2014_winter"
 
-alias enggrid="ssh -X -c blowfish -C bobzhou@engineering-grid1.bu.edu"
+alias enggrid="ssh -X bobzhou@engineering-grid.bu.edu"
 alias slides="cd /home/bobzhou/Desktop/571/research/2014_fall/update/ob_files"
 alias algorithm="cd /home/bobzhou/algorithm/ob_files"
 alias schuyler="cd /home/bobzhou/Desktop/571/research/2014_fall/hardware_security/cadence-modelsim-tutorial"
@@ -132,7 +132,13 @@ export PATH=/opt/Xilinx/SDK/2015.2/bin/:$PATH
 
 alias grep="grep --color='auto'"
 alias mendeley="./home/bobzhou/Downloads/mendeleydesktop-1.16.1-linux-x86_64/bin/mendeleydesktop"
-alias anmol="ssh bobzhou@128.197.176.160"
+alias anmol="ssh -X bobzhou@128.197.176.151"
 alias vnccelnode04="/usr/bin/vncviewer -fullscreen celnode04.bu.edu:5939"
 
-bash enable_gnome_extensions.sh
+bash ~/enable_gnome_extensions.sh
+alias file_size="du -sch .[!.]* * |sort -h"
+
+alias android_studio="/home/bobzhou/Downloads/android-studio-ide-145.3330264-linux/android-studio/bin/studio.sh"
+
+alias stock_quote="python /home/bobzhou/personal_projects/financial/finance_quote.py --debug"
+alias icsg4="ssh agupta10@128.197.176.241"

@@ -9,6 +9,7 @@ set splitright
 set textwidth=80
 set autoread
 set hlsearch
+set paste
 "indent
 "set foldmethod=indent
 
@@ -20,18 +21,24 @@ xnoremap p pgvy
 
 " highlight current line
 set cursorline
+hi cursorline cterm=underline,bold
 " highlight current column
 set cursorcolumn
-" set popup autocomplete color
-hi Pmenu ctermbg=DarkGrey ctermbg=white 
+
+" bash setup
 autocmd FileType bash set noexpandtab
+
+" autobuild
+au BufWritePost *.tex Make!
+
+" background build shortcut
 
 "related to python
 autocmd FileType python set autoindent
-autocmd FileType python set expandtab
 autocmd FileType python set tabstop=4
 autocmd FileType python set softtabstop=4
 autocmd FileType python set shiftwidth=4
+autocmd FileType python set expandtab
 
 "related to latex
 "set file type latex
@@ -112,6 +119,9 @@ let g:NERDTreeIndicatorMapCustom = {
 "ctags related
 map <C-]> :rightb vsp <CR>:exec("tag ".expand("<cword>"))<CR>
 
+" set popup autocomplete colors
+set completeopt=longest,menuone,preview
+hi Pmenu ctermbg=DarkGrey ctermbg=white 
 "autocomplete 
 autocmd FileType python set omnifunc=pythoncomplete#Complete
 autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
@@ -120,3 +130,4 @@ autocmd FileType css set omnifunc=csscomplete#CompleteCSS
 autocmd FileType xml set omnifunc=xmlcomplete#CompleteTags
 autocmd FileType php set omnifunc=phpcomplete#CompletePHP
 autocmd FileType c set omnifunc=ccomplete#Complete
+
